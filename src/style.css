@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+a.active, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+
+
+body{
+    font-family: Montserrat;
+    background: black;
+    background-image: url(../assets/backgroundLOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 100vh;  
+}
+
+main{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin-top: 15%;
+
+}
+
+.card1{
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    height: 30em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 1em;
+}
+.card2{
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    height: 30em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 1em; 
+}
+.card2 img{
+    height: 60%;
+    width: 100%;
+    border-start-start-radius: 1em;
+    border-start-end-radius: 1em;
+}
+
+img{
+    height: 60%;
+    width: 100%;
+    border-start-start-radius: 1em;
+    border-start-end-radius: 1em;
+}
+
+button{
+    width: 97%;
+    height: 2.5em;
+    border: none;
+    border-radius: 1em;
+    color: aliceblue;
+    background-color: green;
+}
+
